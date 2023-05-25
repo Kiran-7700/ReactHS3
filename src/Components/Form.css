@@ -1,0 +1,78 @@
+.fullPage{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+    padding-top: 24px;
+    background-image: linear-gradient(to top,#fed6e3 0%, #a8edea 100%);
+
+}
+
+
+.heading {
+    font-weight: 800;
+    margin-top: 0px;
+}
+
+label {
+    font-size: 27px;
+}
+
+input {
+    height: 50px;
+    width: 210px;
+    border: 1px solid;
+    border-radius: 28px;
+    margin-left: 7px;
+    background-color: rgb(213, 240, 231);
+}
+
+input[type="text"] {
+    font-size: 20px;
+}
+
+input[type="number"] {
+    font-size: 20px;
+}
+
+button {
+    height: 60px;
+    width: 240px;
+    border: 1px solid;
+    border-radius: 44px;
+    font-size: 25px;
+    background-color: aqua;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: aquamarine;
+}
+.container{
+    height: auto;
+    width: auto;
+    background-color: LightSeaGreen;
+    border: 1px solid;
+    margin-top: 50px;
+    margin-left: 60px;
+    margin-right: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.show{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    width: 420px;
+    background-color: rgb(238, 172, 231);
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 22px;
+    font-size: 16px;
+    font-weight:700;
+    justify-content: center;
+    margin: 10px;
+}
