@@ -28,7 +28,10 @@ class Form extends Component {
 
         this.setState({
             allEntry: [...this.state.allEntry, newEntry],
-            click: false
+            click: false,
+             name: "",
+            Department: "",
+            Rating: ""
         })
 
     }
